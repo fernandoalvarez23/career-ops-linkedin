@@ -2,9 +2,15 @@
 
 Cuando el candidato pega una oferta (texto o URL), entregar SIEMPRE los 7 bloques (A-F evaluation + G legitimacy):
 
-## Paso 0 — Detección de Arquetipo
+## Paso 0 — Detección de Mercado y Arquetipo
 
-Clasificar la oferta en uno de los 6 arquetipos (ver `_shared.md`). Si es híbrido, indicar los 2 más cercanos. Esto determina:
+**Detección de mercado (para CV dual):**
+- Si la oferta menciona Spain, España, Madrid, Barcelona, "contrato indefinido", empresa española conocida → mercado ES → anotar "📄 CV recomendado: cv-es.md"
+- Si la oferta es de Argentina, LATAM, o empresa global sin señales de España → mercado AR → anotar "📄 CV recomendado: cv-ar.md"
+- Incluir esta nota al inicio del Bloque A.
+
+**Detección de arquetipo:**
+Clasificar la oferta en uno de los 6 arquetipos (ver `_profile.md`). Si es híbrido, indicar los 2 más cercanos. Esto determina:
 - Qué proof points priorizar en bloque B
 - Cómo reescribir el summary en bloque E
 - Qué historias STAR preparar en bloque F
